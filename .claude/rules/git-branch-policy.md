@@ -1,12 +1,3 @@
----
-tier: universal
-facets: [git]
-enforce: text
-upgrade: hook
-evidence: unmeasured
-version: 1
----
-
 # Branch Name Conventions
 
 This governs the name and lifetime of every git branch created in this repository, by a person or by Claude. It applies globally, so it carries no `paths:` scope. Commit messages and pull request titles are out of scope.

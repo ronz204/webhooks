@@ -1,12 +1,3 @@
----
-tier: universal
-facets: [any]
-enforce: text
-upgrade: hook
-evidence: unmeasured
-version: 1
----
-
 # Commit Message Conventions
 
 This governs every git commit message written in this repository, by a person or by Claude. It applies globally, so it carries no `paths:` scope. Pull request titles are out of scope.

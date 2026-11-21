@@ -54,7 +54,7 @@ Read only what the task needs. Cross-references use stable IDs with a 3-letter p
 
 ## Rules
 
-Standing rules live in `.claude/rules/`. Claude Code loads them automatically. Any other agent should read the ones that match its task before writing code or committing. Frontmatter fields other than `paths` (tier, facets, enforce, upgrade, evidence, version) are metadata for a possible future rule-management tool, described in `artifacts/rules.artifact.md`. Claude Code ignores them.
+Standing rules live in `.claude/rules/`. Claude Code loads them automatically. Any other agent should read the ones that match its task before writing code or committing.
 
 | Rule | Applies when |
 |---|---|

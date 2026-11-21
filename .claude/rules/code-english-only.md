@@ -1,12 +1,3 @@
----
-tier: universal
-facets: [any]
-enforce: text
-upgrade: lint
-evidence: unmeasured
-version: 1
----
-
 # Code Language Conventions
 
 This governs the language used in code itself: identifiers, and the strings a piece of code produces at runtime, error messages above all, regardless of what language the team communicates in day to day.

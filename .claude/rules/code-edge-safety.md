@@ -4,12 +4,6 @@ paths:
   - "**/adapters/**"
   - "**/clients/**"
   - "**/config/**"
-tier: architecture
-facets: [hexagonal]
-enforce: text
-upgrade: test
-evidence: unmeasured
-version: 1
 ---
 
 # Edge Safety Conventions

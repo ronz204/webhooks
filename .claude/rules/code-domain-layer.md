@@ -2,12 +2,6 @@
 paths:
   - "**/core/**"
   - "**/domain/**"
-tier: architecture
-facets: [ddd]
-enforce: text
-upgrade: lint
-evidence: unmeasured
-version: 1
 ---
 
 # Domain Layer Conventions

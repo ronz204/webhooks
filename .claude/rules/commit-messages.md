@@ -46,4 +46,4 @@ This governs every git commit message written in this repository, by a person or
 
 ## Non-goals
 
-- Doesn't dictate branch names or pull request titles.
+- Doesn't dictate pull request titles. Branch names are covered by `git-branch-names.md`.

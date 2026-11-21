@@ -57,7 +57,7 @@ Project facts and the reasons behind decisions: what no rule or playbook can kno
 
 ## Rule metadata (frontmatter)
 
-Claude Code reads only the paths field of a rule and ignores every other field without an error, so extra metadata is safe today and useful to a future tool.
+Claude Code reads only the paths field of a rule and ignores every other field without an error, so extra metadata is safe today and useful to a future tool. The webhooks project keeps only paths for now, because it is small. The fields below are the set to adopt when a tool needs them.
 
 | Field | Meaning |
 |---|---|

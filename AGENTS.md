@@ -58,12 +58,12 @@ Standing rules live in `.claude/rules/`. Claude Code loads them automatically. A
 
 | Rule | Applies when |
 |---|---|
-| `.claude/rules/code-lean-change.md` | You write or edit any source: how much code a change may add. |
-| `.claude/rules/code-domain-step.md` | You work on the domain layer (any core or domain folder): contexts, entities, value objects, contracts. |
+| `.claude/rules/code-change-size.md` | You write or edit any source: how much code a change may add. |
+| `.claude/rules/code-domain-layer.md` | You work on the domain layer (any core or domain folder): contexts, entities, value objects, contracts. |
 | `.claude/rules/code-english-only.md` | You name anything or write an error message or log line: always English. |
 | `.claude/rules/code-edge-safety.md` | You write code that crosses a boundary (network, database, queue, files, config): validation, limits, retries, failures, secrets. |
-| `.claude/rules/commit-messages.md` | You make a commit: format, size, language, when to commit and how to group files. |
-| `.claude/rules/git-branch-names.md` | You create a branch: name format and lifetime. |
+| `.claude/rules/git-commit-policy.md` | You make a commit: format, size, language, when to commit and how to group files. |
+| `.claude/rules/git-branch-policy.md` | You create a branch: name format and lifetime. |
 
 ## Context file conventions
 
